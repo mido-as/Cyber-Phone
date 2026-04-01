@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header{
+  height: 88px;
+  border-bottom: solid rgba(141, 141, 141, 0.632) 1px;
+  img{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+input{
+  width: 372px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #F5F5F5;
+  border: none;
+}
+#productSection{
+  height: 600px;
+}
+ #productInfo{
+  height: 90%;
+ }
+#productImg{
+  height: 90%;
+    img{
+      height: 90%;
+  }
+}
+
+#discount{
+  color: gray;
+  text-decoration: line-through;
+}
+p{
+  color: #6C6C6C;
+}
+
+.productsBtn{
+  width: 60px;
+  height: 50px;
+  padding: 18px;
+  border: none;
+  border-radius: 20%;
+
+  img{
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+  }
+}
+span{
+  color: gray;
+}
+
+#productCard{
+  width: 268px;
+  height: 370px;
+  border-radius: 9px;
+  background-color: #ebe6e687;
+  
+  img{
+    height: 160px
+  };
+}
+
+#footer{
+  width: 1440px;
+  height: 504px;
+  background-color: rgb(0, 0, 0);
+
+  #footerContent{
+    width: 1120px;
+    height: 256px;
+    color: white;
+    p,li{
+      color: #e8e7e7c7;
+    }
+  }
+  #footerSocial{
+    width: 173px;
+    height: 16px;
+    padding-left: 24px;
+    
+
+      img{
+        width: 24px;
+        height: 24px;
+      }
+      
+    }
+
+}
