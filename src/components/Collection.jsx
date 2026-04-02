@@ -9,9 +9,9 @@ function Collection(props) {
      </div>
 
       <div className='d-flex flex-column justify-content-start align-items-start'>
-        <h6>{props.productName} </h6>
-        <h6>{props.productCode}</h6>
-        <h6>{props.productPrice}</h6>
+        <h6>{props.name} </h6>
+        <h6>{props.code}</h6>
+        <h6>{props.price}</h6>
       </div>
       <button className="btn btn-dark ps-5 pe-5">Add To Cart</button>
 

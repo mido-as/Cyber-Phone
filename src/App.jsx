@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Product from "./components/Product"
 import Collection from "./components/Collection"
 import Footer from "./components/Footer"
+import productsInfo from "./components/productData"
 
 
 function App() {
@@ -14,24 +15,26 @@ function App() {
       <div className="container d-flex flex-column align-items-start gap-4 p-4">
         <h3>Related Products</h3>
         <div className="d-flex col-10 justify-content-between align-items-center gap-5">
-          <Collection productName = "Apple iPhone 17 Pro Orange"
-            productCode = "(MQ233)" 
-            productPrice = "1000 $" 
-            img = "https://static.reach-tele.com/uploads/thumbs/1a/1a686ddea41de0779e66d3953a9418a7.png"/>
-          <Collection productName = "Oneplus 15 with Snapdragon 8 Elite Gen 5"
-            productCode = "(MQ243)" 
-            productPrice = "700 $" 
-            img = "https://image01-in.oneplus.net/media/202511/06/4fd767bdb010e0b78639871524cce2a5.png?x-amz-process=image/format,webp/quality,Q_80"/>
-          <Collection productName = "Tecno Camon 40"
-            productCode = "(MQ273)" 
-            productPrice = "500 $" 
-            img = "https://www.atom.com.mm/uploads/ATOM-2025/devicebundle/Camon40_308PX-x-308PX-id.png"/>
-          <Collection productName = "Samsung Galaxy S26 Ultra 5G"
-            productCode = "(MQ238)" 
-            productPrice = "900 $" 
-            img = "https://myxprs.com/cdn/shop/files/SamsungGalaxyS26Ultra5G12GBRam512GBxprs.webp?v=1772620020"/>
-
           
+          <Collection name = {productsInfo[0].productName}
+            code = {productsInfo[0].productCode}
+            price = {productsInfo[0].productPrice}
+            img = {productsInfo[0].productURL}/>
+
+          <Collection name = {productsInfo[1].productName}
+            code = {productsInfo[1].productCode}
+            price = {productsInfo[1].productPrice}
+            img = {productsInfo[1].productURL}/>
+
+          <Collection name = {productsInfo[2].productName}
+            code = {productsInfo[2].productCode}
+            price = {productsInfo[2].productPrice}
+            img = {productsInfo[2].productURL}/>
+
+          <Collection name = {productsInfo[3].productName}
+            code = {productsInfo[3].productCode}
+            price = {productsInfo[3].productPrice}
+            img = {productsInfo[3].productURL}/>
       </div>
       </div>
       <Footer/> 
